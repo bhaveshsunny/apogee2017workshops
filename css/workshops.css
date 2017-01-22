@@ -64,7 +64,7 @@ h1, p{
 }
 
 .active_tab{
-
+  background-color: #34495E;
 }
 
 .wks_buttons:before {
@@ -87,7 +87,10 @@ h1, p{
 .wks_content {
   width: calc(100% - 100px);
   height:100%;
+  background-color: #34495E;
   display: flex;
+  text-align: left;
+  color: white;
   flex-direction: row;
   justify-content: flex-start;
 }
@@ -100,4 +103,14 @@ h1, p{
 .wks_text {
   width: calc(100% - 250px);
   height: 100%;
+  padding: 1em;
+}
+
+.wks_title {
+  font-size: 1.6em;
+  text-decoration: underline;
+}
+
+.wks_description {
+  padding-top: 20px;
 }
